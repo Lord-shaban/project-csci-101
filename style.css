@@ -1,0 +1,153 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background.jpg'); /* رابط صورة الخلفية */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* لون النص ليظهر بوضوح على الخلفية */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* ظل للنص */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd700; /* لون الروابط */
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+    color: #ffa500; /* لون عند تمرير الفأرة */
+}
+
+.movie-container {
+    background-color: rgba(0, 0, 0, 0.6); /* لون خلفية شفاف */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.movie-title {
+    color: #ffd700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.movie-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* إعدادات خلفية كاملة لصفحة الأغاني */
+body.music-page {
+    background-image: url('music-background.jpg'); /* ضع هنا مسار صورة الخلفية الخاصة بالأغاني */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* لون النص يظهر بوضوح على الخلفية */
+}
+
+/* تنسيقات خاصة بصفحات الموسيقى */
+.music-container {
+    background-color: rgba(0, 0, 0, 0.6); /* لون خلفية شفاف لزيادة وضوح النص */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 20px auto;
+    color: #ffd700;
+    font-size: 18px;
+}
+
+.music-container h2 {
+    color: #ffd700;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.music-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.lyrics {
+    margin-top: 20px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.lyrics p {
+    margin: 10px 0;
+}
+/* تنسيق رابط الأغنية فقط */
+.song-link a {
+    color: #ff6600; /* لون النص */
+    text-decoration: none; /* إزالة الخط السفلي */
+    font-weight: bold; /* جعل النص غامقًا */
+    border: 2px solid #ff6600; /* إضافة حدود */
+    padding: 10px 20px; /* مساحة داخلية حول النص */
+    border-radius: 10px; /* زوايا مستديرة */
+    display: inline-block; /* لضبط الحيز */
+    transition: background-color 0.3s ease, color 0.3s ease; /* تأثير التغيير */
+}
+
+.song-link a:hover {
+    background-color: #ff6600; /* لون الخلفية عند التمرير */
+    color: #ffffff; /* لون النص عند التمرير */
+}
+
+/* خلفية خاصة لجميع صفحات الألعاب */
+body.game-page {
+    background-image: url('game-background.jpg'); /* ضع هنا مسار صورة الخلفية الخاصة بالأغاني */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff; /* لون النص يظهر بوضوح على الخلفية */
+}
+
+/* تنسيقات الصندوق الداخلي */
+.game-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.game-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
